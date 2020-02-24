@@ -1,3 +1,20 @@
+---
+page_type: sample
+languages:
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+urlFragment: ComplexInk
+extendedZipContent:
+- path: SharedContent
+  target: SharedContent
+- path: LICENSE
+  target: LICENSE
+description: "Demonstrates advanced InkPresenter functionality."
+---
+
 <!---
   category: CustomUserInteractions Inking
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620522
@@ -9,7 +26,9 @@ Shows how to use advanced InkPresenter functionality to achieve scenarios such a
 copy/paste, and event handling.  It is built upon the Universal Windows Platform (UWP) in C++ and can run on both Desktop and Mobile Windows 10 SKUs.
 
 > **Note:** This sample is part of a large collection of UWP feature samples. 
-> If you are unfamiliar with Git and GitHub, you can download the entire collection as a 
+> You can download this sample as a standalone ZIP file
+> [from docs.microsoft.com](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/),
+> or you can download the entire collection as a single
 > [ZIP file](https://github.com/Microsoft/Windows-universal-samples/archive/master.zip), but be 
 > sure to unzip everything to access shared dependencies. For more info on working with the ZIP file, 
 > the samples collection, and GitHub, see [Get the UWP samples from GitHub](https://aka.ms/ovu2uq). 
@@ -19,6 +38,7 @@ Specifically, this sample covers using the [Windows.UI.Input.Inking](http://msdn
 -   Render ink strokes onto app specified VSIS surface
 -   Erase ink strokes via mode toggle or eraser button
 -   Select ink strokes via mode toggle or barrel button drag
+-   Use InkToolbar in custom dry mode
 
 **Note**  Read the following instructions before using the app.
 
@@ -33,7 +53,7 @@ Specifically, this sample covers using the [Windows.UI.Input.Inking](http://msdn
 
 To obtain information about Windows 10 development, go to the [Windows Dev Center](http://go.microsoft.com/fwlink/?LinkID=532421)
 
-To obtain information about Microsoft Visual Studio 2015 and the tools for developing Windows apps, go to [Visual Studio 2015](http://go.microsoft.com/fwlink/?LinkID=532422)
+To obtain information about Microsoft Visual Studio and the tools for developing Windows apps, go to [Visual Studio](http://go.microsoft.com/fwlink/?LinkID=532422)
 
 ## Related topics
 --------------
@@ -55,8 +75,8 @@ To obtain information about Microsoft Visual Studio 2015 and the tools for devel
 ----------------
 
 1. If you download the samples ZIP, be sure to unzip the entire archive, not just the folder with the sample you want to build. 
-2. Start Microsoft Visual Studio 2015 and select **File** \> **Open** \> **Project/Solution**.
-3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio 2015 Solution (.sln) file.
+2. Start Microsoft Visual Studio and select **File** \> **Open** \> **Project/Solution**.
+3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio Solution (.sln) file.
 4. Press Ctrl+Shift+B, or select **Build** \> **Build Solution**.
 
 ## Run the sample

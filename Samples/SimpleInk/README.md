@@ -1,3 +1,21 @@
+---
+page_type: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+urlFragment: SimpleInk
+extendedZipContent:
+- path: SharedContent
+  target: SharedContent
+- path: LICENSE
+  target: LICENSE
+description: "Shows how to use ink functionality in Universal Windows apps."
+---
+
 <!---
   category: CustomUserInteractions Inking
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620602
@@ -5,10 +23,12 @@
 
 # Simple inking sample
 
-Shows how to use ink functionality (such as capturing ink from user input and performing handwriting recognition on ink strokes) in Universal Windows apps using C#.
+Shows how to use ink functionality (such as capturing ink from user input and performing handwriting recognition on ink strokes) in Universal Windows apps.
 
 > **Note:** This sample is part of a large collection of UWP feature samples. 
-> If you are unfamiliar with Git and GitHub, you can download the entire collection as a 
+> You can download this sample as a standalone ZIP file
+> [from docs.microsoft.com](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simpleink/),
+> or you can download the entire collection as a single
 > [ZIP file](https://github.com/Microsoft/Windows-universal-samples/archive/master.zip), but be 
 > sure to unzip everything to access shared dependencies. For more info on working with the ZIP file, 
 > the samples collection, and GitHub, see [Get the UWP samples from GitHub](https://aka.ms/ovu2uq). 
@@ -26,10 +46,14 @@ Specifically, this sample covers using the Windows.UI.Input.Inking APIs to do th
 -   Change which input types (Mouse/Touch/Pen) are used for inking
 -   Recognize handwriting from ink strokes
 -   Select ink strokes
--   Create a ruler, show it, hide it, and reposition it
--   manipulate wet ink strokes
+-   Create a ruler and protractor, show them, hide them, customize them, and reposition them
+-   Manipulate wet ink strokes
     - make strokes follow a shape
     - complete a stroke prematurely if conditions are met
+-   Use ink stroke timestamps to replay ink strokes
+-   Use a png as the background of an InkToolbarCustomPenButton and bind its color to the SelectedBrush property of the buttons
+-   Change the rendering of the strokes and the color palette change by changing the high contrast adjustment mode
+-   Enable pencil tilt
 
 ## Related topics
 
@@ -54,8 +78,8 @@ Specifically, this sample covers using the Windows.UI.Input.Inking APIs to do th
 ## Build the sample
 
 1. If you download the samples ZIP, be sure to unzip the entire archive, not just the folder with the sample you want to build. 
-2. Start Microsoft Visual Studio 2015 and select **File** \> **Open** \> **Project/Solution**.
-3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio 2015 Solution (.sln) file.
+2. Start Microsoft Visual Studio and select **File** \> **Open** \> **Project/Solution**.
+3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio Solution (.sln) file.
 4. Press Ctrl+Shift+B, or select **Build** \> **Build Solution**.
 
 ## Run the sample

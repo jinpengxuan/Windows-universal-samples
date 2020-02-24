@@ -1,4 +1,21 @@
-﻿<!---
+---
+page_type: sample
+languages:
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+urlFragment: DWriteTextLayoutCloudFont
+extendedZipContent:
+- path: SharedContent
+  target: SharedContent
+- path: LICENSE
+  target: LICENSE
+description: "Shows how to use DirectWrite downloadable fonts, a feature added in Windows 10, together with the DirectWrite text layout API."
+---
+
+<!---
   category: ControlsLayoutAndText
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620539
 --->
@@ -8,7 +25,9 @@
 Shows how to use DirectWrite downloadable fonts, a feature added in Windows 10, together with the DirectWrite text layout API.
 
 > **Note:** This sample is part of a large collection of UWP feature samples. 
-> If you are unfamiliar with Git and GitHub, you can download the entire collection as a 
+> You can download this sample as a standalone ZIP file
+> [from docs.microsoft.com](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/dwritetextlayoutcloudfont/),
+> or you can download the entire collection as a single
 > [ZIP file](https://github.com/Microsoft/Windows-universal-samples/archive/master.zip), but be 
 > sure to unzip everything to access shared dependencies. For more info on working with the ZIP file, 
 > the samples collection, and GitHub, see [Get the UWP samples from GitHub](https://aka.ms/ovu2uq). 
@@ -35,7 +54,8 @@ Within the DWriteTextLayoutCloudFontImplementation project, the following files 
 ### DWriteTextLayoutCloudFont project
 Within the DWriteTextLayoutCloudFont project, the following files are significant:
 
-* The Scenario\_Document1.\*, Scenario\_Document2.\* and Scenario\_Document3.\* files each invoke text layout using a different downloadable font, and then invoke and respond to the downloadable font mechanism.
+* The Scenario\_Document1.\*, Scenario\_Document2.\* and Scenario\_Document3.\* files each present a DirectWrite text layout using a different downloadable font that gets downloaded, with the layout subsequently being updated.
+* The DocumentPresenter.\* files provide the higher-level implementation for the three documents (Scenario\_Document1, etc.) The DocumentPresenter class creates the text layout and the surface image source used to present it. It also creates the FontDownloadListener that interacts with DirectWrites font download mechanism and initiates the download of remote fonts. It also implements event handlers to update the layout and the surface image source when the remote font has been downloaded, and on other relevant events. 
 * The Scenario\_SampleOverview.\* files provide guidance for using the sample app.
 * The Scenario\_CloudFontOverview.\* files provide more information about the downloadable font mechanism.
 
@@ -63,8 +83,8 @@ The ClearDownloadableFontCache.ps1 file is not part of the sample project itself
 ## Build the sample
 
 1. If you download the samples ZIP, be sure to unzip the entire archive, not just the folder with the sample you want to build. 
-2. Start Microsoft Visual Studio 2015 and select **File** \> **Open** \> **Project/Solution**.
-3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio 2015 Solution (.sln) file.
+2. Start Microsoft Visual Studio and select **File** \> **Open** \> **Project/Solution**.
+3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio Solution (.sln) file.
 4. Press Ctrl+Shift+B, or select **Build** \> **Build Solution**.
 
 ## Run the sample

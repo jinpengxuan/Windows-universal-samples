@@ -1,12 +1,13 @@
 Quick guide to creating new SDK Sample projects.  
-The Win10 RTM templates are designed to work with the linked files in the SharedContent folders as part of the Universal Windows Platform Samples repo.  As such, the sample must be created in the repository.
+
+The templates are designed to work with the linked files in the SharedContent folders as part of the Universal Windows Platform Samples repo.  As such, the sample must be created in the repository.
 
 Setup - Install the UWP Sample project templates:
-1) Shutdown VS 2015 if it is running
-2) Open an Administrator command prompt, and run "SharedContent\InstallSDKTemplates.cmd", this will copy the template files to the correct user locations.
+1) Shut down Visual Studio if it is running
+2) Run "InstallSDKTemplates.cmd", this will copy the template files to the correct user locations.
 
 Create a new Sample project:
-3) Launch VS 2015
+3) Launch Visual Studio
 4) File.New Project...Templates->[Visual C++|Visual C#|JavaScript].Windows.Universal.Windows SDK UWP Sample (XAML)
 5) Uncheck the checkbox for "Create directory for solution" 
 6) Create the sample in the Samples folder of your local repo, ie: "C:\repos\public\Samples"
@@ -20,6 +21,6 @@ Move the Sample project to the appropriate language folder.  This is not natural
 11) Load the solution in VS and verify you can now BUILD it.
  Repeat this for every language you are going to create a sample for.
 
-The default template has 3 scenarios, delete those that you don't need. If you need to add more follow these instructions.
+The default template has two scenarios. If you need to add more follow these instructions.
 1) With you project open in VS, choose 'Add..New Item.."
 2) Choose 'SDK Sample Scenario Page'

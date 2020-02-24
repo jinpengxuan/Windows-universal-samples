@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraStarterKit", "CameraStarterKit.csproj", "{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraStarterKit", "CameraStarterKit.csproj", "{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,24 +15,24 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|ARM.ActiveCfg = Debug|ARM
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|ARM.Build.0 = Debug|ARM
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|ARM.Deploy.0 = Debug|ARM
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|x64.ActiveCfg = Debug|x64
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|x64.Build.0 = Debug|x64
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|x64.Deploy.0 = Debug|x64
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|x86.ActiveCfg = Debug|x86
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|x86.Build.0 = Debug|x86
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Debug|x86.Deploy.0 = Debug|x86
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|ARM.ActiveCfg = Release|ARM
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|ARM.Build.0 = Release|ARM
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|ARM.Deploy.0 = Release|ARM
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|x64.ActiveCfg = Release|x64
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|x64.Build.0 = Release|x64
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|x64.Deploy.0 = Release|x64
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|x86.ActiveCfg = Release|x86
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|x86.Build.0 = Release|x86
-		{F4E2FB30-5D0E-4427-9C0D-DF01131362E7}.Release|x86.Deploy.0 = Release|x86
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|ARM.Build.0 = Debug|ARM
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|x64.ActiveCfg = Debug|x64
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|x64.Build.0 = Debug|x64
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|x64.Deploy.0 = Debug|x64
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|x86.ActiveCfg = Debug|x86
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|x86.Build.0 = Debug|x86
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Debug|x86.Deploy.0 = Debug|x86
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|ARM.ActiveCfg = Release|ARM
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|ARM.Build.0 = Release|ARM
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|ARM.Deploy.0 = Release|ARM
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|x64.ActiveCfg = Release|x64
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|x64.Build.0 = Release|x64
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|x64.Deploy.0 = Release|x64
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|x86.ActiveCfg = Release|x86
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|x86.Build.0 = Release|x86
+		{F6914E50-F8A1-5B5B-9C2E-F094F6760E92}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
